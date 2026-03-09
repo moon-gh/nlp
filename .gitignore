@@ -1,0 +1,10 @@
+[200~__pycache__/
+*.py[cod]
+*.pyc
+.DS_Store
+
+# Environments
+.env
+.venv
+venv/
+eof

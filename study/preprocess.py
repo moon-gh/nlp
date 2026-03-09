@@ -10,7 +10,7 @@ def clean_by_freq(tokenized_words, cut_off_count):
     uncommon_words = {key for key, value in vocab.items() if value <= cut_off_count}
 
     # uncommon_words에 포함되지 않는 단어 리스트 생성
-    cleaned_words = [word for word in tokenized_words if word noot in uncommon_words]
+    cleaned_words = [word for word in tokenized_words if word not in uncommon_words]
 
     return cleaned_words
 
